@@ -1,11 +1,18 @@
-body {
-    background-image: url(images/backgrounds/h_img.jpg);
-}
-
-body {
-    text-align: center;
-}
-
-background {
-    opacity: 0.5;
-}
+          body {
+              text-align: center;
+          }
+          
+          .top-bg {
+              background-image: url(../images/backgrounds/h_img.jpg);
+              min-height: 500px;
+              /* You must set a specified height */
+              /* background-position: top bottom;*/
+              background-position: fixed;
+              /* Center the image */
+              background-repeat: no-repeat;
+              /* Do not repeat the image */
+              background-size: cover;
+              background-color: transparent;
+              text-align: center;
+              color: white;
+          }
