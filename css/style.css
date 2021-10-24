@@ -59,3 +59,9 @@ body {
     clear: both;
     display: table;
 }
+
+#design-icon,
+#dev-icon,
+#product-icon {
+    display: none;
+}
