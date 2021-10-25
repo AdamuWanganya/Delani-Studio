@@ -59,9 +59,9 @@
         }
         /* hiding what we do content on each icon*/
         
-        #design-icon,
-        #dev-icon,
-        #product-icon {
+        #design,
+        #dev,
+        #product {
             display: none;
         }
         
