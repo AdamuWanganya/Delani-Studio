@@ -1,4 +1,4 @@
-# Akan-Names
+# Delani Studio
 
 This is a web application that displays information about Delani Studio.It used to practising HTML,CSS,Bootstrap and jQuery.Where we have to apply hover effects and  implementation of Mailchimp API.
 
