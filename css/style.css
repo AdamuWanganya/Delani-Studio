@@ -126,6 +126,7 @@
     body {
         margin: 0;
         padding: 0;
+        background: #fff;
         font-family: sans-serif;
     }
     
@@ -141,8 +142,8 @@
         position: relative;
         width: 300px;
         height: 300px;
-        background: #ff0;
-        margin: 10px;
+        background: yellow;
+        margin: 5px;
         box-sizing: border-box;
         display: inline-block;
     }
@@ -152,12 +153,11 @@
         overflow: hidden;
     }
     
-    .portfolio .work .imgwork .img {
-        max-width: 100%;
+    .portfolio .work .imgwork img {
         transition: transform 2s;
     }
     
-    .portfolio .work:hover .imgwork .img {
+    .portfolio .work:hover .imgwork img {
         transform: scale(1.2);
     }
     
@@ -167,7 +167,13 @@
         left: 10px;
         bottom: 10px;
         right: 10px;
-        background: rgb(0, 0, 0, .8);
+        background: rgba(255, 255, 255, 0.5);
+        transform: scaleY(0);
+        transition: transform .5s;
+    }
+    
+    .portfolio .work:hover .details {
+        transform: scaleY(1);
     }
     
     .portfolio .work .details .content {
@@ -176,5 +182,12 @@
         transform: translateY(-50%);
         text-align: center;
         padding: 15px;
+        color: #fff;
+    }
+    
+    .portfolio .work .details p {
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
         color: #fff;
     }
